@@ -1,0 +1,31 @@
+Features implemented :
+
+	Default Mode :
+1)  Navigation using h, j, k, l
+2)  Navigation using arrow keys
+3)  Replace, G, gg
+4)  Scrolling features with all above features
+
+
+	Insert Mode
+1)  Insert new characters at the end of line
+2)  Insret new characters in middle ( For multiline , it fails sometimes, debugging)
+3)  Delete
+4)  Backspace from end of line
+5)  Enter feature is not implemented
+6)  Tab spaces only working at end, if presses in between it acts as cursor movemenet without adding spaces in between
+
+	Command Mode
+1)  save
+2)  quit
+3)  force quit
+4)  !commands
+
+	Screen resize event:
+1) Added signal listener for screen size change event
+2) printing entire file again
+
+
+    Scopes to improve / working
+ 
+1)  Displaying only changed part only wherever possible 
